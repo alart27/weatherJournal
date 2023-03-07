@@ -1,0 +1,23 @@
+EN:
+
+This is a class for storing observations about the weather. The class stores a list of dates and temperatures corresponding to these dates. Implemented:
+	1) Constructors, destructor and assignment operator =.
+	2) Operations for comparison ==, !=.
+	3) Operation << for class std::stream to display all observations.
+	4) Operation + to combine two logs into one. And a similar operation +=.
+	5) The function call operation (), with the help of which a new observation could be added to the class. (weatherJournal(year, month, day) = temperature.) The operation checks that the temperature is not less than absolute zero. If the temperature is less than absolute zero, then the operation leaves the object in its original state.
+	6) Method for deleting observation.
+	7) A method for displaying all observations from one date to another in ascending date order.
+
+
+
+RU:
+
+Класс для сохранения наблюдений о погоде. Класс хранит список дат и температур, соответствующих этим датам. Реализовано:
+	1) Конструкторы, деструктор и операция присваивания =.
+	2) Операции для сравнения ==, !=.
+	3) Операция << для класса std::stream для вывода всех наблюдений.
+	4) Операция + для объединения двух журналов в один. И аналогичная операция +=.
+	5) Операция функционального вызова (), при помощи которой в класс можно было бы добавить новое наблюдение. (weatherJournal(year, month, day) = temperature.) Операция делает проверку того, что температура не меньше абсолютного нуля. Если температура меньше абсолютного нуля, то операция оставляет объект в исходном состоянии.
+	6) Метод для удаления наблюдения.
+	7) Метод для вывода всех наблюдений от одной даты до другой в порядке увеличения даты.
